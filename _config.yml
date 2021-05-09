@@ -50,7 +50,7 @@ dana-diskon: https://link.dana.id/p2m?params=[orderId=534a046a-07ee-46c9-a7cd-0a
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: 
+url: https://plus62store.netlify.app
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
