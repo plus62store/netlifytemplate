@@ -1,1 +1,1 @@
-Sitemap: https://plus62store.netlify.app/sitemap.xml
+Sitemap: /sitemap.xml

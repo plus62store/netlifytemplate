@@ -477,6 +477,7 @@ nav a {
   width: 850px;
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .pic-produk {
@@ -857,6 +858,31 @@ footer {
 
 .display-none {
   display: none;
+}
+
+.selik {
+  width: 820px;
+  height: 220px;
+  border-radius: 5px !important;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 640px) {
+  .selik {
+    width: -webkit-fill-available;
+    height: auto;
+  }
+}
+
+.kranjang {
+  float: right;
+  width: 400px;
+}
+
+@media screen and (max-width: 640px) {
+  .kranjang {
+    display: none;
+  }
 }
 
 .highlight {
