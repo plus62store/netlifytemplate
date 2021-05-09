@@ -178,9 +178,9 @@ setInterval(function(){
     {% if page.layout == "store" %}
             <ion-title><a href="{{ site.baseurl }}/">{{ site.name }}</a></ion-title>
 {% endif %}
-<div id="cart-menu" slot="end" style="margin-right:15px;">
+<div slot="end" style="margin-right:15px;">
         <ion-buttons>
-        <ion-button href="{{ site.baseurl }}/cart"><ion-icon name="cart"></ion-icon><ion-badge class="notif simpleCart_quantity" color="danger"></ion-badge></ion-button>
+        <ion-button href="{{ site.baseurl }}/cart"><ion-icon id="cart-menu" name="cart"></ion-icon><ion-badge class="notif simpleCart_quantity" color="danger"></ion-badge></ion-button>
         </ion-buttons></div>
     {% if page.layout == "default" %}
         <ion-buttons slot="end">
