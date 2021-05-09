@@ -1,12 +1,14 @@
 ---
 layout: post
 categories: [Terbaru]
+id: p62s-1220
 title: Masker Bordir Motif
 harga: '25.000'
 persen: 25% off
 diskon: '18.750'
 stok: Sisa 1pcs
 subtitle: Masker Bordir Motif
+desk: masker bordir manual tasikmalaya, dengan 3 lapis kain, tersedia headloop dan earloop.
 image: https://1.bp.blogspot.com/-3QB3ru4ZkLw/YFxjm_M1lVI/AAAAAAAAHJ8/HqV5yNslgYE-UrQ0HIwSEO5HT5UqIY4xwCLcBGAsYHQ/s320/kucing.jpeg
 images:
 - https://1.bp.blogspot.com/-wHquc1a_kFk/YFxjmPi0FPI/AAAAAAAAHJ4/bp8bQu8MYIgexXvK2c7jaavNQVWfk-1GACLcBGAsYHQ/s320/hitam.jpeg
@@ -31,6 +33,7 @@ bintang4: fa-star
 bintang5: fa-star-half
 penjualan: 159 Terjual
 stok: 20
+kondisi: Baru
 rC: 16
 rV: 82
 ---

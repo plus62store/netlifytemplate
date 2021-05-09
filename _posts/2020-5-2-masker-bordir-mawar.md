@@ -1,12 +1,14 @@
 ---
 layout: post
 categories: [Terlaris, ]
+id: p62s-5220
 title: Masker Bordir Mawar
 harga: '20.000'
 persen: 25% off
 diskon: '15.000'
 stok: 20pcs
 subtitle: Masker Bordir Mawar
+desk: masker bordir manual tasikmalaya, dengan 3 lapis kain, tersedia headloop dan earloop.
 image: https://1.bp.blogspot.com/-Egz6vffdnxM/YFxWc5lzUDI/AAAAAAAAHGs/yT2SywMN_5IBnuFniLIVZWLXZ1wAoQIpACLcBGAsYHQ/s320/utama.jpg
 images:
 - https://1.bp.blogspot.com/-u_ozGwZXdmY/YFxWbr_O2xI/AAAAAAAAHGU/T7GM9_lvFYcK4yMOQSDvyg18MKXwq7O3ACLcBGAsYHQ/s320/hitam.jpg
@@ -31,6 +33,7 @@ bintang4: fa-star
 bintang5: fa-star
 penjualan: 753 Terjual
 stok: 20
+kondisi: Baru
 rC: 41
 rV: 98
 ---

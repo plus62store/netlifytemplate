@@ -1,12 +1,14 @@
 ---
 layout: post
 categories: [Terbaru]
+id: p62s-5120
 title: Masker Bordir Rosse
 harga: '20.000'
 persen: 25% off
 diskon: '15.000'
 stok: 13pcs
 subtitle: Masker Bordir Rosse
+desk: masker bordir manual tasikmalaya, dengan 3 lapis kain, tersedia headloop dan earloop.
 image: https://1.bp.blogspot.com/--vODME6sY-8/YFxZLwUr62I/AAAAAAAAHIY/4nMq1sG_cK8n_sT8jrHpKZlcfVXJ-4NKwCLcBGAsYHQ/s320/utama.jpg
 images:
 - https://1.bp.blogspot.com/-k9hiz5pHP0I/YFxZB6rgf1I/AAAAAAAAHIA/KZrQWFCa8gYteYyQQGkzoWt1VBKjL6sugCLcBGAsYHQ/s320/marun.jpg
@@ -31,6 +33,7 @@ bintang4: fa-star
 bintang5: fa-star-half
 penjualan: 239 Terjual
 stok: 20
+kondisi: Baru
 rC: 29
 rV: 79
 ---

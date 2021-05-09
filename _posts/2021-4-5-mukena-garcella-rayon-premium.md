@@ -1,12 +1,14 @@
 ---
 layout: post
 categories: [Terbaru]
+id: p62s-4520
 title: Mukena Garcella
 harga: '185.000'
 persen: 15% off
 diskon: '157.250'
 stok: 20pcs
 subtitle: Mukena Garcella Rayon Premium
+desk: mukena rayon premium GARCELLA, Stok terbatas.
 image: https://cf.shopee.co.id/file/09a49f974223ab7ee852275e9c0193e0
 images:
 - https://cf.shopee.co.id/file/6c3c76cf17cb55a7a4e6a1a3f138e2e8
@@ -29,6 +31,7 @@ bintang4: fa-star
 bintang5: fa-star
 penjualan: 35 Terjual
 stok: 20
+kondisi: Baru
 rC: 12
 rV: 95
 ---

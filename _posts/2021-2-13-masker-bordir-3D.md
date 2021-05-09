@@ -1,12 +1,14 @@
 ---
 layout: post
 categories: [Terlaris, Terbaru]
+id: p62s-21320
 title: Masker Bordir 3D
 harga: '30.000'
 persen: 16% off
 diskon: '25.200'
 stok: 20pcs
 subtitle: masker bordir 3D
+desk: masker bordir manual tasikmalaya, dengan 3 lapis kain, tersedia headloop dan earloop.
 image: https://cf.shopee.co.id/file/86e632480a9b475919f2d3cf08caa4ef
 images:
 - https://cf.shopee.co.id/file/74530543685ec9d3fba71596bc7b62d0
@@ -31,6 +33,7 @@ bintang4: fa-star
 bintang5: fa-star
 penjualan: 292 Terjual
 stok: 20
+kondisi: Baru
 rC: 55
 rV: 98
 ---

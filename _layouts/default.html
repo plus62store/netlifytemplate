@@ -139,39 +139,37 @@ setInterval(function(){
     {% if page.layout == "post" %}
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "brand": "As-Syariah Bordir",
-  "description": "Jasa & Produk Bordir Tasikmalaya",
+  "@context":"https://schema.org",
+  "@type":"Product",
+  "productID":"{{ page.id }}",
+  "name":"{{ page.subtitle }}",
+  "description":"{{ page.desk }}",
+  "url":"{{ site.url }}{{ page.url }}",
+  "image":"{{ page.image }}",
+  "brand":"plus62bordir",
   "aggregateRating": {
     "@type": "AggregateRating",
     "bestRating": "5",
     "ratingCount": "{{ page.rC }}",
     "ratingValue": "{{ page.rate }}"
   },
-  "image": "{{ page.image }}",
-  "name": "{{ page.subtitle }}",
-  "offers": {
-    "@type": "AggregateOffer",
-    "priceCurrency": "IDR",
-    "highPrice": "{{ page.harga }}",
-    "lowPrice": "{{ page.diskon }}",
-    "offerCount": "{{ page.stok }}",
-    "offers": [
-      {
-        "@type": "Offer",
-        "url": "{{ site.url }}{{ page.url }}"
-      },
-      {
-        "@type": "Offer",
-        "url": "{{ site.url }}{{ page.url }}"
-      }
-    ]
-  }
+  "offers": [
+    {
+      "@type": "Offer",
+      "price": "{{ page.diskon }}",
+      "priceCurrency": "IDR",
+      "itemCondition": "{{ page.kondisi }}",
+      "availability": "in stock"
+    }
+  ],
+  "additionalProperty": [{
+    "@type": "PropertyValue",
+    "propertyID": "item_group_id",
+    "value": "masker_bordir"
+  }]
 }
 </script>
     {% endif %}
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>

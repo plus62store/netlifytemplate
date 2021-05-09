@@ -1,12 +1,14 @@
 ---
 layout: post
 categories: [Terlaris, ]
+id: p62s-3320
 title: Masker Bordir Ilalang
 harga: '20.000'
 persen: 25% off
 diskon: '15.000'
 stok: 20pcs
 subtitle: masker bordir ilalang
+desk: masker bordir manual tasikmalaya, dengan 3 lapis kain, tersedia headloop dan earloop.
 image: https://1.bp.blogspot.com/-nYwa2H3pu60/YFxVBXzlN2I/AAAAAAAAHF4/o-ihKHtwVL0ngaLGHTgKQ8S0uZOEaIFrgCLcBGAsYHQ/s320/ilalang-utama.jpg
 images:
 - https://1.bp.blogspot.com/-rsXUepSHy-w/YFxVAGZV8nI/AAAAAAAAHFk/IRz6lsofPrsEXobzr7JerA2w4hiPE4yJwCLcBGAsYHQ/s800/ilalang-abu.jpg
@@ -31,6 +33,7 @@ bintang4: fa-star
 bintang5: fa-star
 penjualan: 407 Terjual
 stok: 20
+kondisi: Baru
 rC: 30
 rV: 95
 ---
