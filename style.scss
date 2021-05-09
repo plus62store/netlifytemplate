@@ -400,6 +400,10 @@ nav {
     display:flex;
     flex-wrap: wrap;
     margin: 0 auto;
+
+    @include mobile {
+    width: auto;
+    }
 }
 
 .pic-produk {
