@@ -158,8 +158,9 @@ setInterval(function(){
       "@type": "Offer",
       "price": "{{ page.diskon }}",
       "priceCurrency": "IDR",
-      "itemCondition": "{{ page.kondisi }}",
-      "availability": "in stock"
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "url":"{{ site.url }}{{ page.url }}"
     }
   ],
   "additionalProperty": [{
