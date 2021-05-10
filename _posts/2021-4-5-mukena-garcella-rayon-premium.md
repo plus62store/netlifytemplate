@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Terbaru]
-id: p62s-4520
+id: p62s_4520
 title: Mukena Garcella
 harga: '185.000'
 persen: 15% off
@@ -31,7 +31,7 @@ bintang4: fa-star
 bintang5: fa-star
 penjualan: 35 Terjual
 stok: 20
-kondisi: Baru
+kondisi: New
 rC: 12
 rV: 95
 ---

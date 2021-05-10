@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Terlaris, ]
-id: p62s-4220
+id: p62s_4220
 title: Masker Bordir Simaya
 harga: '20.000'
 persen: 25% off
@@ -33,7 +33,7 @@ bintang4: fa-star
 bintang5: fa-star
 penjualan: 675 Terjual
 stok: 20
-kondisi: Baru
+kondisi: New
 rC: 35
 rV: 95
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Terlaris, ]
-id: p62s-5220
+id: p62s_5220
 title: Masker Bordir Mawar
 harga: '20.000'
 persen: 25% off
@@ -33,7 +33,7 @@ bintang4: fa-star
 bintang5: fa-star
 penjualan: 753 Terjual
 stok: 20
-kondisi: Baru
+kondisi: New
 rC: 41
 rV: 98
 ---

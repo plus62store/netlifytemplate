@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Terlaris, ]
-id: p62s-3320
+id: p62s_3320
 title: Masker Bordir Ilalang
 harga: '20.000'
 persen: 25% off
@@ -33,7 +33,7 @@ bintang4: fa-star
 bintang5: fa-star
 penjualan: 407 Terjual
 stok: 20
-kondisi: Baru
+kondisi: New
 rC: 30
 rV: 95
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Terbaru]
-id: p62s-5120
+id: p62s_5120
 title: Masker Bordir Rosse
 harga: '20.000'
 persen: 25% off
@@ -33,7 +33,7 @@ bintang4: fa-star
 bintang5: fa-star-half
 penjualan: 239 Terjual
 stok: 20
-kondisi: Baru
+kondisi: New
 rC: 29
 rV: 79
 ---

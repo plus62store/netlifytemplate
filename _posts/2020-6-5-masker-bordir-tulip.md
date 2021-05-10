@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Terbaru]
-id: p62s-6520
+id: p62s_6520
 title: Masker Bordir Tulip
 harga: '20.000'
 persen: 25% off
@@ -33,7 +33,7 @@ bintang4: fa-star
 bintang5: fa-star-half
 penjualan: 325 Terjual
 stok: 20
-kondisi: Baru
+kondisi: New
 rC: 20
 rV: 88
 ---

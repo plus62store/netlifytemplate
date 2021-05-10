@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Terbaru]
-id: p62s-1220
+id: p62s_1220
 title: Masker Bordir Motif
 harga: '25.000'
 persen: 25% off
@@ -33,7 +33,7 @@ bintang4: fa-star
 bintang5: fa-star-half
 penjualan: 159 Terjual
 stok: 20
-kondisi: Baru
+kondisi: New
 rC: 16
 rV: 82
 ---

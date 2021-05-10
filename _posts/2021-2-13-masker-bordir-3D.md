@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [Terlaris, Terbaru]
-id: p62s-21320
+id: p62s_21320
 title: Masker Bordir 3D
 harga: '30.000'
 persen: 16% off
@@ -33,7 +33,7 @@ bintang4: fa-star
 bintang5: fa-star
 penjualan: 292 Terjual
 stok: 20
-kondisi: Baru
+kondisi: New
 rC: 55
 rV: 98
 ---
