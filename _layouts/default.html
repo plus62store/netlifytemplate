@@ -104,6 +104,7 @@ setInterval(function(){
      $(".blinking").toggle();
 },500);
 </script>
+    {% if page.layout == "default" %}
 <script type='application/ld+json'> 
 {
   "@context": "http://www.schema.org",
@@ -131,6 +132,7 @@ setInterval(function(){
   }
 }
  </script>
+    {% endif %}
     {% if page.layout == "post" %}
 <script type="application/ld+json">
 {
@@ -142,11 +144,17 @@ setInterval(function(){
   "url":"{{ site.url }}{{ page.url }}",
   "image":"{{ page.image }}",
   "brand":"plus62bordir",
+  "sku": "{{ page.sku }}",
+  "mpn": "{{ page.mpn }}",
   "aggregateRating": {
     "@type": "AggregateRating",
     "bestRating": "5",
     "ratingCount": "{{ page.rC }}",
     "ratingValue": "{{ page.rate }}"
+  },
+  "review": {
+    "@type": "Review",
+    "author": "NdanG"
   },
   "offers": [
     {
@@ -155,7 +163,8 @@ setInterval(function(){
       "priceCurrency": "IDR",
       "itemCondition": "https://schema.org/NewCondition",
       "availability": "https://schema.org/InStock",
-      "url":"{{ site.url }}{{ page.url }}"
+      "url":"{{ site.url }}{{ page.url }}",
+      "priceValidUntil": "2022-01-01T00:00:00.000Z"
     }
   ],
   "additionalProperty": [{
