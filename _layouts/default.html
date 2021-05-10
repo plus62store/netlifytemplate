@@ -35,11 +35,11 @@
       --offset-top:0px;
       --offset-bottom:0px!mportant;
     }
-    .element,html{scrollbar-width:none}
-    html::-webkit-scrollbar,.element::-webkit-scrollbar{display:none}
-	  </style>
-
-<style>
+.element,html{scrollbar-width:none}
+html::-webkit-scrollbar,.element::-webkit-scrollbar{display:none}
+</style>
+    {% if page.layout == "default" %}
+<style type="text/css">
 .keranjang.dekstop{position:relative;width:60px;text-align:left;padding:5px 0;-webkit-box-ordinal-group:3;-ms-flex-order:3;order:3;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
 .notif-tambah-product{width:255px;position:absolute;z-index:99;font-size:14px;right:-10px;background:#00b35e;padding:10px 20px;opacity:1;display:none;color:#fff;top:65px;border-radius:15px;-webkit-box-shadow:0 2px 5px 0 rgba(56,56,56,.49);box-shadow:0 2px 5px 0 rgba(56,56,56,.49);}
 .keranjang .simpleCart_quantity{width:20px;height:20px;background:#ff0000;position:absolute;border-radius:100%;color:#ffffff;text-align:center;line-height:20px;font-size:12px;z-index:3}
@@ -86,6 +86,7 @@
 .wrapper-masthead {display:none;}
 span.simpleCart_shipping, span.simpleCart_grandTotal {font-weight: 600;color:#ff460c;}
 </style>
+{% endif %}
   <script type="module">
     import { alertController } from 'https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/index.esm.js';
     window.alertController = alertController;
@@ -307,44 +308,36 @@ $(document).ready(function(){
   });
 });
   </script>
+  {% if page.layout == "post" %}
   <script>
-    customElements.define('modal-content', class ModalContent extends HTMLElement {
-      connectedCallback() {
-        this.innerHTML = `
-          <ion-header translucent>
-            <ion-toolbar color="danger">
-              <ion-title>Metode Pembayaran</ion-title>
-              <ion-buttons slot="end">
-                <ion-button onclick="dismissModal()">Close</ion-button>
-              </ion-buttons>
-            </ion-toolbar>
-          </ion-header>
-          <ion-content fullscreen>
-    {% include cart.html %}
-          </ion-content>
-        `;
-      }
-    });
+    const button = document.querySelector('ion-click');
+    button.addEventListener('click', handleButtonClick);
 
-    let currentModal = null;
-    const button = document.querySelector('ion-pay');
-    button.addEventListener('click', createModal);
-
-    async function createModal() {
-      const modal = await modalController.create({
-        component: 'modal-content'
+    async function handleButtonClick() {
+      const toast = await toastController.create({
+        color: 'dark',
+        duration: 2500,
+        message: 'Berhasil Ditambah ke Keranjang',
+        showCloseButton: false
       });
 
-      await modal.present();
-      currentModal = modal;
-    }
-
-    function dismissModal() {
-      if (currentModal) {
-        currentModal.dismiss().then(() => { currentModal = null; });
-      }
+      await toast.present();
     }
   </script>
+<script>
+    var dialog = document.querySelector('dialog');
+    var showModalButton = document.querySelector('.show-modal');
+    if (! dialog.showModal) {
+      dialogPolyfill.registerDialog(dialog);
+    }
+    showModalButton.addEventListener('click', function() {
+      dialog.showModal();
+    });
+    dialog.querySelector('.close').addEventListener('click', function() {
+      dialog.close();
+    });
+</script>
+  {% endif %}
 <script>
 jQuery(document).ready(function(){
     // This button will increment the value
