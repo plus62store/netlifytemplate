@@ -31,7 +31,8 @@ a.send_form{position:relative;display:block;background:#4f6671;color:#ffffff;pad
 <small class="info"><i class="fa fa-info" style="font-size:8px;"></i> Lengkapi Data Berikut</small>
 </div>
 <!--=== HTML Form WhatsApp  ===-->
-<div class='data-form validate-form' id='whatsapp-order'>
+<form action="?" method="POST" class='data-form validate-form' id='whatsapp-order'>
+<div id="html_element">
 <!--=== HTML Pilihan Pembayaran ===-->
 <input class='order' id='AdminToko' type='hidden'/>
 <!--=== HTML Table Form Pesanan ===-->
@@ -68,7 +69,10 @@ a.send_form{position:relative;display:block;background:#4f6671;color:#ffffff;pad
 </label>
 </div>
     <div class="mdl-dialog__actions mdl-dialog__actions" style="justify-content:space-between!important;;padding: 8px 0!important;margin-top: 10px;">
-      <a type="button" onclick="history.back();" class="whatsapp-btn mdl-button sendWAclik order">Lanjut</a>
+      <a  type="submit" class="whatsapp-btn mdl-button sendWAclik order">Lanjut</a>
       <button type="button" class="mdl-button close" onclick="history.back();">Tutup</button>
-    </div>
-    </div>
+    </div></div>
+    </form>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
