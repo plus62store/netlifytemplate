@@ -243,13 +243,12 @@ a.send_form{position:relative;display:block;background:#4f6671;color:#ffffff;pad
 .datainput .validasi:after {position: absolute;bottom: 100%;left: 12px;content: '';border: 8px solid;border-color: transparent transparent #7ed6ff transparent;}
 .f123 {display:flex;grid-gap:15px;}.n123{width:100%;}
 </style>
-<div class='datainput'>
-<small class="info"><i class="fa fa-info" style="font-size:8px;"></i> Lengkapi Data Berikut</small>
-</div>
 <!--=== HTML Form WhatsApp  ===-->
 <form action="?" method="POST" class='data-form validate-form' id='whatsapp-order'>
-<div id="html_element">
-<!--=== HTML Pilihan Pembayaran ===-->
+<div class='datainput'>
+<div id="html_element"></div>
+<small class="info"><i class="fa fa-info" style="font-size:8px;"></i> Lengkapi Data Berikut</small>
+</div>
 <input class='order' id='AdminToko' type='hidden'/>
 <!--=== HTML Table Form Pesanan ===-->
 <div class='gridWhatsApp'>
@@ -285,9 +284,9 @@ a.send_form{position:relative;display:block;background:#4f6671;color:#ffffff;pad
 </label>
 </div>
     <div class="mdl-dialog__actions mdl-dialog__actions" style="justify-content:space-between!important;;padding: 8px 0!important;margin-top: 10px;">
-      <a  type="submit" class="whatsapp-btn mdl-button sendWAclik order">Lanjut</a>
-      <button type="button" class="mdl-button close" onclick="history.back();">Tutup</button>
-    </div></div>
+      <button type="button" class="mdl-button close"></button>
+      <a type="submit" class="whatsapp-btn mdl-button sendWAclik order">Lanjut</a>
+    </div>
     </form>
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
         async defer>
